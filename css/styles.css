@@ -75,6 +75,7 @@ hr {
 
 .robot-arm-img {
   width: 25%;
+  height: auto;
   float: left;
   margin-right: 30px;
 }
@@ -120,4 +121,9 @@ hr {
   padding-top: 10px;
   display: block;
 }
+
+#bio {
+  padding-right: 60px;
+  padding-left: 60px;
+  }
 /******************************************************************************/

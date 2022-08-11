@@ -23,7 +23,11 @@
 
     <div class="row">
       <div class="column1">
-        <p style="width:100%">biobiobiobiobiobiobiobiobiobiobio</p>
+        <p style="width:100%" id="bio">I graduated from WPI in 2018 with a Bachelor's in Robotics Engineering, putting the most emphasis into my study of computer science while also taking Mechanical and Electrical courses.
+After college, I spent nearly 4 years at SharkNinja in the Robotics division working across multiple departments. I had ample opportunity to learn the product, the system, and how to “speak the languages” of the multitude of different contributors I worked with. I was the “go-to guy” for technical details about the electrical and firmware subsystems of the robot, very often being called upon by executives to root cause high priority system issues or help track system integration workstreams.
+In addition, I was the leader of the navigation subsystem for our advanced navigation robot projects. In my role, I was consistently able to resolve navigation issues by helping align software developers with electrical or mechanical engineers. When met with a challenge I couldn’t resolve alone, I collaborated with my fellow engineers or connected with the necessary people to ensure success.
+As a robotics engineer, I want to be able to incorporate all three disciplines (mechanical, electrical and software) into my work and use them to ensure product success. Whether I am working with low level firmware for embedded micros or diagnosing an electrical failure on a production unit, I want to be flexible and able to adapt to the problem at hand while still being able to effectively communicate findings to other employees who don’t “speak the language”. I find this allows me to be an effective integrator who can solve interfacing issues that affect two or more subsystems or work well with non-technical members of the team. I am open and excited for new possibilities that allow me to continue to add engineering skills to my arsenal and be part of a cohesive team!
+</p>
       </div>
       <div class="column">
         <img id="profile-picture" src="images/me.jpg" alt="profile-picture" style="width:100%">
@@ -34,8 +38,6 @@
         <a class="init-link" href="https://www.linkedin.com/in/coshea47/">LinkedIn</a>
         <hr />
         <a class="init-link" href="https://www.github.com/osh1996/">Github</a>
-        <hr />
-        <a class="init-link" href="IDK">Resume</a>
       </div>
     </div>
 
@@ -45,29 +47,42 @@
     <div class="projects">
       <h2>My Projects:</h2>
       <div class="skill-row">
-        <img class="robot-arm-img" src="images/robot.png" alt="robotic-arm">
-        <h3>3D Printing</h3>
-        <p class="project-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        <p class="project-skills">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        <img class="robot-arm-img" src="images/360.jpeg" alt="RV2500AE">
+        <h3>Shark Autonomous Robot Navigation System</h3>
+        <p class="project-description">While at Shark, I had the opportunity to lead the lidar-based robot navigation subsystems for the RV2000 and RV2500 series robots. I was responsible for evaluating main navigation sensors to choose the right one for the job based on things like performance, reliability, vendor relationship and price point. Once we had a sensor selected I was mainly responsible for progressing the subsystem through iterative changes driven by user feedback, a suite of tests which benchmarked performance and issues uncovered during in home testing. This included defining and managing design qualification test protocols, ensuring that we don't regress from build to build. For the tests, I designed electromechanical fixtures to measure things like sensor accuracy or operation under extreme temperatures. I worked directly with consumer data and returned robots to identify overarching problems that needed attention and suggested solutions. I also gave demonstrations to key stakeholders and executives in the company, displaying the technology through demonstrations and fielding any questions about the system.
+        </p>
+        <p class="project-skills">Skills: RCCA, Sensor Selection, Data Analysis, User Interaction, Problem Solving, Test Development, Electromechanical Fixture Fabrication, Presentation</p>
       </div>
-      <div class="skill-row">
-        <img class="robot-arm-img" src="images/robot.png" alt="robotic-arm">
-        <h3>Autonomous Mapping with TurtleBots</h3>
-        <p class="project-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        <p class="project-skills">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-      </div>
+
       <div class="skill-row">
         <img class="robot-arm-img" src="images/robot.png" alt="robotic-arm">
         <h3>HALT Testing</h3>
-        <p class="project-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        <p class="project-skills">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        <p class="project-description">While at Shark, I lead a cross-functional team of engineers to select the lidar sensor used in our navigation system. We developed and executed accelerated life tests on a selection of lidar sensors to predict performance in our advanced navigation robots. I modified basic lidar software tools provided by software developers to optimize for the testing and provide an easy to use interface for the test engineers. After the testing, I worked with our systems architect to analyze the collected data and compile it into easy to understand graphics. Finally I presented the findings to executives and the wider team to make the decision of which sensor to select.</p>
+        <hr />
+        <hr />
+        <p class="project-skills">Skills: Test development, Data analysis, Data Visualization, Collaboration, Presentation</p>
+      </div>
+      <hr />
+      <div class="skill-row">
+        <img class="robot-arm-img" src="images/turtlebot2.png" alt="turtlebot2">
+        <h3>Autonomous Mapping with TurtleBots</h3>
+        <p class="project-description">Using the turtlebot 2 platform, I wrote code to autonomously explore and map an area in real-time. I implemented a frontier based exploration algorithm using A* with a heavily modified heuristic built to explore an area as efficiently as possible while avoiding obstacles. This project was my first experience using ROS, allowing me to pick up on fundamentals and build on my previous experience in Linux.</p>
+        <p class="project-skills">Skills: Algorithms, Path Planning, ROS, Linux, Collaboration</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="robot-arm-img" src="images/printer.jpg" alt="Ender 3">
+        <h3>3D Printing</h3>
+        <p class="project-description">After working with the original Makerbots during a summer job just before college, I caught the 3D printing bug and purchased my own printer. After gaining some experience, I worked in the WPI robotics lab to help maintain the heavily utilized Taz printers which were available to robotics majors. I’ve had a few 3D printers, with my most recent being an Ender 3, which I constantly improve through firmware and hardware modifications. I love to push the limit of both the platform's capabilities and my own skills and creativity. My most recent upgrade to my Ender 3 involves mesh bed leveling which is automated through the use of a hall effect driven probe. Next, I am looking at upgrading the stepper motor drivers and fans to make the machine quieter to run. Exploring the 3D printing universe is always exciting as having access to the base firmware of the machine alongside lots of open source firmwares always leaves me feeling like I can do something to improve print quality and ensure print success.
+        </p>
+        <p class="project-skills">Skills: 3D Printing, Problem solving, C/C++ Programming, Self-teaching</p>
       </div>
     </div>
   </div>
 
 
   <div class="bottom-container">
-    <p>© 2022 Chris O'Shea.</p>
+    <p>2022 Chris O'Shea</p>
   </div>
   </body>
 </html>
